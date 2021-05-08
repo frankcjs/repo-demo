@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+       fetch=".."
+       revision="master" />
+  <default remote="origin"
+           revision="master"
+       sync-j="4" />
+  <project name="frankcjs/app1" path="frankcjs/app1" />
+  <project name="frankcjs/app2" path="frankcjs/app2" />
+</manifest>
